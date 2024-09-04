@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Rechard's Event Things</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">EVENT Essentials</a>
+    <div class="w3-right w3-hide-small">
+      <a href="#offers" class="w3-bar-item w3-button">Offers</a>
+      <a href="#photos" class="w3-bar-item w3-button">Photos</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+<a href="#event" class="w3-bar-item w3-button">Schedule Event </a>
+   </div>
+  </div>
+  </div>
+
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img src="images1/School1.jpeg" alt="School Events" width="1400" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1>We Do All Event Types</h1>
+  </div>
+</header>
+
+<div class="w3-content" style="max-width:1100px">
+
+  <div class="w3-row w3-padding-64" id="offers">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="images1/School2.jpeg"alt="School Things" width="500" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">What We Offer</h1><br>
+      <h5 class="w3-center">Entertainment Guaranteed</h5>
+      <ul class="w3-ul w3-red">
+    <li>Graduations</li>
+    <li>Work Parties</li>
+    <li>Birthday Parties</li>
+<li>House Events</li>
+<li>Bachelor/Bachelorette Parties</li>
+  </ul>
+      <p class="w3-large w3-text-grey w3-hide-medium">Planning an event is hard work, but what if, despite all your efforts, it doesn’t get the attention it deserves? The thought of empty seats or low turnout can be frustrating, leaving you wondering how to create buzz and ensure people show up, but there’s a simple way to tackle this problem.We are the answer at Event Essentials we offer gauranteed results
+</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <div class="w3-row w3-padding-64" id="photos">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Photo Gallery</h1><br>
+      <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="images 2/Baby.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Baby Shower">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="images 2/Bachelor.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bachelor">
+    </div>
+ <div class="w3-col m3">
+      <img src="images 2/Beach.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Beach">
+    </div>
+    <div class="w3-col m3">
+      <img src="images 2/Birthday.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Birthday">
+    </div>
+  </div>
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+     <img src="images 2/Office.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Office">
+    </div>
+    <div class="w3-col m3">
+      <img src="images 2/Proposal.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Proposal">
+    </div>
+    <div class="w3-col m3">
+      <img src="images 2/Rave.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Rave">
+    </div>
+    <div class="w3-col m3">
+     <img src="images 2/Wedding.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Wedding">
+    </div>
+    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+  </div>
+</div>
+    </div>
+  </div>
+
+  <hr>
+
+
+  <div class="w3-container w3-padding-64" id="contact">
+<div class="w3-container w3-cursive">
+    <h1>Contact</h1><br>
+<p class="w3-large"> We offer full-service catering for any event, large or small. We understand your needs.</p>
+    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 1 Woodbrook PLace, Port of Spain<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 18682692273<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: eventessentials.tt<br>
+  </div>
+ </div>
+
+<div class="w3-row w3-padding-64" id="event">
+<div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Schedule an Event</h1><br>
+    
+     <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+<p><input class="w3-input w3-padding-16" type="number" placeholder="Contact Number" required name="Phone Number"></p>
+<p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+
+  
+
+</div>
+
+
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>FOR ALL YOUR EVENT NEEDS</p>
+</footer>
+
+</body>
+</html>
